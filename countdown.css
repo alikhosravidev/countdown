@@ -1,0 +1,57 @@
+/*count down timer*/
+.countdown-timer .countdown .circle {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+
+.countdown-timer .countdown .circle .int {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    top: calc(100% + 15px);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #262626;
+    font-size: 14px;
+}
+
+.countdown-timer svg.radial-progress {
+    height: auto;
+    transform: rotate(-90deg);
+}
+
+svg.radial-progress circle {
+    fill: transparent;
+    stroke: #6c63ff;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 5
+}
+
+svg.radial-progress circle.incomplete {
+    opacity: .25
+}
+
+svg.radial-progress circle.complete {
+    stroke-dasharray: 219.91148575129
+}
+
+svg.radial-progress text {
+    fill: #262626;
+    text-anchor: middle
+}
+
+svg.radial-progress circle {
+    fill: transparent;
+    stroke: #6c63ff;
+    color: #6c63ff;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 5
+}
+/*End count down timer*/
