@@ -6,6 +6,11 @@
 A simple countdown timer
 </h4>
 
+<div align="center">
+    <img src="https://iili.io/l27n0F.gif" alt="l27n0F.gif" border="0" />
+</div>
+
+
 ## Usage:
 ```bash
 #load css file
@@ -22,7 +27,7 @@ A simple countdown timer
 ```bash
 <script>
   #init countdown
-  initCountdown('.your-selector');
+  initCountdown('.countdown-timer');
 </script>
 ```
 
